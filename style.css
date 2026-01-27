@@ -147,6 +147,33 @@ table {
   }
 
   h1 {
-    font-size: 24px;
+    font-size: 1.8rem; /* 例: 少し小さめ */
   }
+  .nav, .header, .footer {
+    padding: 8px; /* 例: 余白を調整 */
+  }
+}
+/* 基本のスマホ対応 */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* 画像が画面をはみ出さないように */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 表がはみ出る場合、横スクロールにする */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
+}
+table td, table th {
+  word-break: break-word; /* セル内で長い文字列があるときに折り返す */
 }
