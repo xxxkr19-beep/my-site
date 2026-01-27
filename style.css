@@ -22,10 +22,10 @@ img {
     margin: auto;
     display: block;
 }
-iframe {
+/* iframe {
     margin: auto;
     display: block;
-}
+} */
 
 body {
     font-family: 'Noto Sans JP', sans-serif;
@@ -219,3 +219,5 @@ table td, table th {
   table td {
     text-align: center;       /* ← justify をやめる */
     pad
+  }
+  
