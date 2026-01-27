@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "LINE Seed JP", sans-serif;
+    
+}
+img {
+    margin: auto;
+    display: block;
+}
+iframe {
+    margin: auto;
+    display: block;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #231916;
+    margin: auto;
+    max-width: 1200px;
+}
+.logo_small img {
+    width: 20%;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+main {
+    color: fff;
+}
+button {
+    padding: 20px;
+    display: block;
+    margin: auto;
+}
+
+.btn-simple-solid {
+    background: #fff;
+    color: #231916;
+    border: none;
+    padding: 12px 32px;
+    font-size: 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-simple-solid:hover {
+    background: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  .btn-simple-solid:active {
+    transform: translateY(0);
+  }
+.main_image img {
+    width: 80%;
+    height: 500px;
+    align-items: center;
+    margin: auto;
+}
+.main_01 {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+    /* justify-content: space-between; */
+    
+}
+.main_01 a {
+    color: #fff;
+    /* font-family: "Bungee", sans-serif; */
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 0px 100px;
+}
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    width:100%;
+    text-align: center;
+    table-layout: auto; /* セルの自動幅 */
+    margin: 50px 0;
+   }
+   
+   table th,
+   table td {
+    border: 1px dashed gray;
+    color: #000;
+    text-align: justify;
+   }
+   table {
+    border-collapse: collapse;
+   }
+   
+   /* 上下5px・左右10pxの余白*/
+   table th {
+     padding: 5px 20px;
+   }
+   
+   /* 上下左右15pxの余白*/
+   table td {
+     padding: 20px;
+   }
+/* table全体に適用する背景色 */
+table {
+    border-collapse: collapse;
+    background: #fff;
+  }
+  
+  /* thの背景色*/
+  table th {
+    color: #fff;
+    background: #14116e;
+  }
+  footer {
+    margin: 50px 0px;
+  }
+.map_text h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
