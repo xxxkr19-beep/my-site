@@ -177,3 +177,45 @@ table {
 table td, table th {
   word-break: break-word; /* セル内で長い文字列があるときに折り返す */
 }
+@media (max-width: 768px) {
+
+  /* 全体 */
+  body {
+    padding: 0 16px;
+  }
+
+  /* ナビ（MAP / ABOUT） */
+  .main_01 {
+    flex-direction: column;   /* ← 縦並びにする */
+    align-items: center;
+    margin: 30px 0;
+  }
+
+  .main_01 a {
+    font-size: 22px;
+    padding: 10px 0;          /* ← 横100pxを殺す */
+  }
+
+  /* メイン画像 */
+  .main_image img {
+    width: 100%;
+    height: auto;             /* ← 固定高さを解除 */
+  }
+
+  /* ロゴ */
+  .logo_small img {
+    width: 40%;
+  }
+
+  /* 表は横スクロールにする */
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    font-size: 14px;
+  }
+
+  table th,
+  table td {
+    text-align: center;       /* ← justify をやめる */
+    pad
