@@ -217,7 +217,11 @@ table td, table th {
 
   table th,
   table td {
-    text-align: center;       /* ← justify をやめる */
-    pad
+    text-align: justify;       /* ← justify をやめる */
+    padding: 10px;
   }
-  
+  table h2 {
+    font-size: 14px;
+    text-align: center;
+  }
+}
