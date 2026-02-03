@@ -177,6 +177,11 @@ table {
 table td, table th {
   word-break: break-word; /* セル内で長い文字列があるときに折り返す */
 }
+able h2 {
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+}
 @media (max-width: 768px) {
 
   /* 全体 */
