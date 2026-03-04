@@ -176,6 +176,8 @@ table {
 }
 table td, table th {
   word-break: break-word; /* セル内で長い文字列があるときに折り返す */
+  display: block;
+    }
 }
 .h2_text {
   font-size: 20px;
