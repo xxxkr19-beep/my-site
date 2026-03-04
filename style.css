@@ -171,11 +171,11 @@ img {
 /* 表がはみ出る場合、横スクロールにする */
 table {
   width: 100%;
-  border-collapse: separate;
-  table-layout: auto;
+  /* border-collapse: separate;
+  table-layout: auto; */
 }
 table td, table th {
-  word-break: break-word; /* セル内で長い文字列があるときに折り返す */
+  /* word-break: break-word; セル内で長い文字列があるときに折り返す */
   display: block;
     }
 }
