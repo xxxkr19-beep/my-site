@@ -214,9 +214,7 @@ table td, table th {
 
   /* 表は横スクロールにする */
   table {
-    border-collapse:separate;
-		border-spacing:0;
-		empty-cells:show;
+    
     /* display: block;
     overflow-x: auto;
     white-space: nowrap; */
