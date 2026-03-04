@@ -132,6 +132,10 @@ table {
     color: #fff;
     background: #14116e;
   }
+  table td {
+    display: flex;
+    justify-content: space-between;
+  }
   footer {
     margin: 50px 0px;
   }
@@ -141,6 +145,8 @@ table {
     font-size: 15px;
     margin-bottom: 10px;
 }
+
+
 @media (max-width: 768px) {
   .container {
     padding: 16px;
@@ -221,6 +227,7 @@ table td, table th {
     overflow-x: auto;
     white-space: nowrap; */
     font-size: 14px;
+     text-align: justify;
   }
 
   table th,
