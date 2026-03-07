@@ -182,7 +182,7 @@ table {
 }
 table td, table th {
   /* word-break: break-word; セル内で長い文字列があるときに折り返す */
-  display: block;
+  display: flex;
     }
 }
 .h2_text {
