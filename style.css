@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     font-family: "LINE Seed JP", sans-serif;
+    background-color: #fff;
+    color: #000;
     
 }
 /* スマホ対応の基本リセット */
@@ -16,6 +18,7 @@ img {
 
 body {
   margin: 0;
+  background-color: #000;
 }
 
 img {
@@ -30,21 +33,22 @@ img {
 body {
     font-family: 'Noto Sans JP', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    background-color: #231916;
+    background-color: #fff;
     margin: auto;
-    max-width: 1200px;
+    max-width: 1980px;
     width: 100%;
     margin: 0 auto;
 
 }
-.logo_small img {
+/* .logo_small img {
     width: 20%;
     padding: 0;
     margin-bottom: 30px;
-}
+} */
 
 main {
     color: fff;
+    background-color: #fff;
 }
 button {
     padding: 20px;
@@ -53,7 +57,7 @@ button {
 }
 
 .btn-simple-solid {
-    background: #fff;
+    background-color: #fff;
     color: #231916;
     border: none;
     padding: 12px 32px;
@@ -65,7 +69,7 @@ button {
   }
   
   .btn-simple-solid:hover {
-    background: #0056b3;
+    background: #fff;
     transform: translateY(-2px);
   }
   
@@ -77,12 +81,14 @@ button {
     height: 500px;
     align-items: center;
     margin: auto;
+    background-color: #fff;
 }
 .main_01 {
     display: flex;
     justify-content: center;
-    margin: 50px 0px;
+    margin: 100px 0px;
     /* justify-content: space-between; */
+    background-color: #fff;
     
 }
 .main_01 a {
@@ -91,7 +97,8 @@ button {
     text-align: center;
     font-size: 30px;
     text-decoration: none;
-    padding: 0px 100px;
+    padding: 100px 100px;
+    background-color: #000;
 }
 table {
     border-collapse: collapse;
@@ -100,6 +107,8 @@ table {
     text-align: center;
     table-layout: auto; /* セルの自動幅 */
     margin: 50px 0;
+    border-collapse: collapse;
+    color: #000;
    }
    
    table th,
@@ -108,13 +117,12 @@ table {
     color: #000;
     text-align: justify;
    }
-   table {
-    border-collapse: collapse;
-   }
    
    /* 上下5px・左右10pxの余白*/
    table th {
      padding: 5px 20px;
+     background-color: #0056b3;
+
    }
    
    /* 上下左右15pxの余白*/
@@ -129,12 +137,15 @@ table {
   
   /* thの背景色*/
   table th {
-    color: #fff;
-    background: #14116e;
+    color: #000;
+    background: #000;
   }
   table td {
     display: flex;
     justify-content: space-between;
+  }
+  .h2_text {
+    color: #000;
   }
   footer {
     margin: 50px 0px;
@@ -148,6 +159,14 @@ table {
 
 
 @media (max-width: 768px) {
+  body {
+    margin: 0;
+    background-color: #fff;
+    color: #000;
+  }
+  .map_text h3 {
+    color: #000;
+  }
   .container {
     padding: 16px;
   }
@@ -158,15 +177,18 @@ table {
   .nav, .header, .footer {
     padding: 8px; /* 例: 余白を調整 */
   }
-
+  .main_01 a {
+    color: #000;
+    background-color: #fff;
+    height: auto;
+    display: inline-block;
+  }
 /* 基本のスマホ対応 */
 * {
   box-sizing: border-box;
+  background-color: #fff
 }
 
-body {
-  margin: 0;
-}
 
 /* 画像が画面をはみ出さないように */
 img {
@@ -184,7 +206,7 @@ table td, table th {
   /* word-break: break-word; セル内で長い文字列があるときに折り返す */
   display: flex;
     }
-}
+
 .h2_text {
   font-size: 20px;
   text-align: center;
@@ -234,6 +256,7 @@ table td, table th {
   table td {
     /* text-align: justify;       ← justify をやめる */
     padding: 10px;
+    color: #fff;
   }
   table h2 {
     font-size: 14px;
@@ -243,7 +266,14 @@ table td, table th {
   .h2_text {
     font-size: 18px;
     text-align: center;
-    color: #fff;
+    color: #000;
     margin: 50px;
   }
+  .map_text {
+    color: #000;
+  }
+}
+.icon {
+  display: flex;
+  justify-content: center;
 }
